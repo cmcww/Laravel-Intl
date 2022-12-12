@@ -1,8 +1,8 @@
-<?php namespace Propaganistas\LaravelIntl\Tests;
+<?php namespace Cmcww\LaravelIntl\Tests;
 
 use Orchestra\Testbench\TestCase;
-use Propaganistas\LaravelIntl\Facades\Country;
-use Propaganistas\LaravelIntl\IntlServiceProvider;
+use Cmcww\LaravelIntl\Facades\Country;
+use Cmcww\LaravelIntl\IntlServiceProvider;
 
 class TestCountry extends TestCase
 {
@@ -30,7 +30,7 @@ class TestCountry extends TestCase
     public function testHelper()
     {
         $this->assertEquals('Belgium', country('BE'));
-        $this->assertEquals('Propaganistas\LaravelIntl\Country', get_class(country()));
+        $this->assertEquals('Cmcww\LaravelIntl\Country', get_class(country()));
     }
 
     public function testHelperIsInSyncWithFacade()

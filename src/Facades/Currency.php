@@ -1,4 +1,4 @@
-<?php namespace Propaganistas\LaravelIntl\Facades;
+<?php namespace Cmcww\LaravelIntl\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Propaganistas\LaravelIntl\Contracts;
+namespace Cmcww\LaravelIntl\Contracts;
 
 use Illuminate\Support\Traits\Macroable;
 

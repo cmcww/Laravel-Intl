@@ -1,4 +1,4 @@
-<?php namespace Propaganistas\LaravelIntl;
+<?php namespace Cmcww\LaravelIntl;
 
 use Illuminate\Foundation\Events\LocaleUpdated;
 use Illuminate\Support\ServiceProvider;

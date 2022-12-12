@@ -1,13 +1,13 @@
 <?php
 
-namespace Propaganistas\LaravelIntl;
+namespace Cmcww\LaravelIntl;
 
 use CommerceGuys\Intl\Formatter\CurrencyFormatter;
 use CommerceGuys\Intl\Currency\CurrencyRepository;
 use CommerceGuys\Intl\NumberFormat\NumberFormatRepository;
 use Illuminate\Support\Arr;
-use Propaganistas\LaravelIntl\Concerns\WithLocales;
-use Propaganistas\LaravelIntl\Contracts\Intl;
+use Cmcww\LaravelIntl\Concerns\WithLocales;
+use Cmcww\LaravelIntl\Contracts\Intl;
 
 class Currency extends Intl
 {
